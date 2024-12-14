@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider_tutorial/lecture1/homepage.dart';
+import 'package:provider_tutorial/lecture2/stateful.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  Stateless(),debugShowCheckedModeBanner: false,
+      home:  StateFul(),debugShowCheckedModeBanner: false,
     );
   }
 }
