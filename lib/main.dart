@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider_tutorial/lecture1/homepage.dart';
 import 'package:provider_tutorial/lecture2/stateful.dart';
+import 'package:provider_tutorial/lecture3/why_provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  StateFul(),debugShowCheckedModeBanner: false,
+      home: const WhyProviderScreen(),debugShowCheckedModeBanner: false,
     );
   }
 }
